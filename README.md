@@ -14,6 +14,7 @@ nnb is an ipython notebook that finds the nearest neighbour/ person with the nea
 
 cofi uses a standard collaborative filtering algorithm. (This is not here yet)
 
+The rest of the files are test data and sample outputs
 
 
 
