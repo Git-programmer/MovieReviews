@@ -1,0 +1,19 @@
+"Name","Freshness.12 Years a Slave","Freshness.20 Feet from Stardom"
+"1","John P. McCarthy",1,NA
+"2","Ray Pride",1,NA
+"3","Wesley Lovell",1,NA
+"4","Anna Tatarska",1,NA
+"5","James Plath",1,NA
+"6","S. Jhoanna Robledo",NA,1
+"7","Graham Young",NA,1
+"8","Mark Kermode",NA,1
+"9","Geoffrey Macnab",NA,1
+"10","Paul Whittington",NA,1
+"11","Kate Stables",NA,1
+"12","Amon Warmann",NA,1
+"13","Tara Brady",NA,1
+"14","Rich Cline",NA,1
+"15","David Sexton",NA,1
+"16","Peter Bradshaw",NA,1
+"17","Deborah Ross",NA,1
+"18","Nigel Andrews",NA,1
