@@ -1,0 +1,32 @@
+import csv
+
+count=0
+f1=open('reviewfile(copy).txt','ra')
+data=csv.reader(f1,delimiter=',')
+for row in data:
+   if count==0: 
+      print row ,len(row)
+      movienames=row
+      print len(movienames)
+   count+=1
+
+print  movienames
+you=['NA']*1677
+you[0]=200000
+you[1]='You'
+
+f2=open('Yourmovieratings.csv','r')
+
+data=csv.reader(f2,delimiter=',')
+for row in data:
+    you[movienames.index(row[0])]=row[1]
+    #print row
+
+print you
+
+for x in you: f1.write(str(x)+',')
+
+f1.close()
+f2.close()
+
+

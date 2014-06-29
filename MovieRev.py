@@ -4,7 +4,8 @@ import string
 import re
 import signal
 
-apikey=#register for a rotten tomatoes api account and get a key
+apikey='65sytfrxwkzsk9kgr7wb2naq'
+#register for a rotten tomatoes api account and get a key
 
 #Takes in a name of a movie, returns id the site uses from the api
 def get_id(movie):
@@ -31,7 +32,7 @@ def getreviews(movie):
             #This is a check
     f.close()
 
-
+   
 #Takes in a list of movies and appends the reviews to the file. Also, multi threading is cool. If a particular movie takes too long, the independent timer raises an exception after 5 seconds, and the try/except skips it.
 def rev_list(list_of_movies):
     count=1
@@ -49,7 +50,7 @@ def rev_list(list_of_movies):
 
         try:
           getreviews(movie)
-          mov.write(str(count)+' '+movie+'\n')
+          mov.write(str(count-1)+','+movie+'\n')
           print movie,' ',count-1, ' done'
 
         except KeyError:
@@ -87,7 +88,7 @@ def movie_list(year):
 #print movie_list(2012)
 #This is a check
 
-rev_list(movie_list(2013))
+#rev_list(movie_list(2013))
 
 #Puts together the movies for a bunch of years
 def big_movie_list(years):
@@ -96,9 +97,10 @@ def big_movie_list(years):
 	    biglist+=movie_list(year)
 	return biglist
         
-#print big_movie_list([2012,2013])
+movies21cent= big_movie_list(range(2000,2013))
 #This is a check
 
+rev_list(movies21cent)
 
 
 #The wiki page html looks like:

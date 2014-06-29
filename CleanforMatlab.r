@@ -1,8 +1,8 @@
 #This r file cleans the reshaped movie data to files Matlab can read for the collabarative 
 #filtration algorithm.
 
-x=read.csv('Testreviews.csv')
-#x=read.csv('reviewfile.txt')
+#x=read.csv('Testreviews.csv')
+x=read.csv('reviewfile.txt')
 
 y<-x[,-1]
 # Get rid of the names of reviewers
