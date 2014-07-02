@@ -12,7 +12,7 @@ The R scripts clean the data for the recommender systems to work with. The resha
 
 nnb is an ipython notebook that finds the nearest neighbour/ person with the nearest taste to you and uses him to recommend movies. This is a stupid algorithm when data is sparse.
 
-Mov_cofi uses a standard collaborative filtering algorithm. (This needs work.)
+CofilReco uses a standard collaborative filtering algorithm. (This needs work.)
 
 The rest of the files are test data and sample outputs
 
